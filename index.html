@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkToGPT</title>
+    <link rel="stylesheet" href="style.css"><!-- 在 HTML 页面中引入外部 CSS 文件，用于美化网页 -->
+        <!-- <link>：用于引入外部资源（如 CSS 文件、字体等）。
+        rel="stylesheet"：表示这个链接的是一个 CSS 样式表（stylesheet）（rel = relation，关系）。
+        href="style.css"：指定 CSS 文件的路径（href = hyper reference，超链接引用）。 -->
+</head>
+<body>
+    <div class="chat-container">
+        <h1>LinkToGPT</h1>
+        <div id="chat-box">
+            <p class="bot-message">欢迎使用LinkToGPT</p>
+                <!-- 区别：id唯一，适用于javascript操作单个元素；而class可复用，适用于 CSS 让多个元素共享样式 -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="请输入您的问题">
+            <button id="send-btn">发送</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+        <!-- （src = source，来源）表示 JavaScript 代码来源是 script.js 文件，而不是直接写在 HTML 里。 -->
+    
+</body>
+</html>
